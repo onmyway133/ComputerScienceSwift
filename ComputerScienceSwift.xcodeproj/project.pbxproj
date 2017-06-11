@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21301571EED7B9E00F17E4A /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301561EED7B9E00F17E4A /* DataStructure.swift */; };
+		D213015E1EED7BFD00F17E4A /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D213015D1EED7BFD00F17E4A /* Algorithm.swift */; };
+		D21301601EED7C0F00F17E4A /* AlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D213015F1EED7C0E00F17E4A /* AlgorithmTests.swift */; };
+		D21301621EED7C2000F17E4A /* DataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301611EED7C2000F17E4A /* DataStructureTests.swift */; };
+		D21301641EED7C2900F17E4A /* DesignPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301631EED7C2900F17E4A /* DesignPatternTests.swift */; };
+		D21301661EED7C3600F17E4A /* PuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301651EED7C3600F17E4A /* PuzzleTests.swift */; };
+		OBJ_29 /* ComputerScienceSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ComputerScienceSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D21301531EED7AF800F17E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_15;
+			remoteInfo = ComputerScienceSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21301561EED7B9E00F17E4A /* DataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
+		D213015D1EED7BFD00F17E4A /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		D213015F1EED7C0E00F17E4A /* AlgorithmTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmTests.swift; sourceTree = "<group>"; };
+		D21301611EED7C2000F17E4A /* DataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructureTests.swift; sourceTree = "<group>"; };
+		D21301631EED7C2900F17E4A /* DesignPatternTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignPatternTests.swift; sourceTree = "<group>"; };
+		D21301651EED7C3600F17E4A /* PuzzleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* ComputerScienceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ComputerScienceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_14 /* ComputerScienceSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ComputerScienceSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* ComputerScienceSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21301551EED7B8B00F17E4A /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				D21301561EED7B9E00F17E4A /* DataStructure.swift */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		D21301581EED7BE000F17E4A /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				D213015F1EED7C0E00F17E4A /* AlgorithmTests.swift */,
+			);
+			name = Algorithm;
+			path = Tests/ComputerScienceSwiftTests/Algorithm;
+			sourceTree = "<group>";
+		};
+		D21301591EED7BE000F17E4A /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				D21301611EED7C2000F17E4A /* DataStructureTests.swift */,
+			);
+			name = DataStructure;
+			path = Tests/ComputerScienceSwiftTests/DataStructure;
+			sourceTree = "<group>";
+		};
+		D213015A1EED7BE000F17E4A /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				D21301631EED7C2900F17E4A /* DesignPatternTests.swift */,
+			);
+			name = DesignPattern;
+			path = Tests/ComputerScienceSwiftTests/DesignPattern;
+			sourceTree = "<group>";
+		};
+		D213015B1EED7BE000F17E4A /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				D21301651EED7C3600F17E4A /* PuzzleTests.swift */,
+			);
+			name = Puzzle;
+			path = Tests/ComputerScienceSwiftTests/Puzzle;
+			sourceTree = "<group>";
+		};
+		D213015C1EED7BF400F17E4A /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				D213015D1EED7BFD00F17E4A /* Algorithm.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		OBJ_12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* ComputerScienceSwift.framework */,
+				OBJ_14 /* ComputerScienceSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				OBJ_12 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D213015C1EED7BF400F17E4A /* Algorithm */,
+				D21301551EED7B8B00F17E4A /* DataStructure */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D21301581EED7BE000F17E4A /* Algorithm */,
+				D21301591EED7BE000F17E4A /* DataStructure */,
+				D213015A1EED7BE000F17E4A /* DesignPattern */,
+				D213015B1EED7BE000F17E4A /* Puzzle */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_15 /* ComputerScienceSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_16 /* Build configuration list for PBXNativeTarget "ComputerScienceSwift" */;
+			buildPhases = (
+				OBJ_19 /* Sources */,
+				OBJ_21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComputerScienceSwift;
+			productName = ComputerScienceSwift;
+			productReference = OBJ_13 /* ComputerScienceSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_22 /* ComputerScienceSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "ComputerScienceSwiftTests" */;
+			buildPhases = (
+				OBJ_26 /* Sources */,
+				OBJ_28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_30 /* PBXTargetDependency */,
+			);
+			name = ComputerScienceSwiftTests;
+			productName = ComputerScienceSwiftTests;
+			productReference = OBJ_14 /* ComputerScienceSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					OBJ_15 = {
+						LastSwiftMigration = 0830;
+					};
+					OBJ_22 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "ComputerScienceSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_15 /* ComputerScienceSwift */,
+				OBJ_22 /* ComputerScienceSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				D21301571EED7B9E00F17E4A /* DataStructure.swift in Sources */,
+				D213015E1EED7BFD00F17E4A /* Algorithm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				D21301601EED7C0F00F17E4A /* AlgorithmTests.swift in Sources */,
+				D21301661EED7C3600F17E4A /* PuzzleTests.swift in Sources */,
+				D21301641EED7C2900F17E4A /* DesignPatternTests.swift in Sources */,
+				D21301621EED7C2000F17E4A /* DataStructureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_15 /* ComputerScienceSwift */;
+			targetProxy = D21301531EED7AF800F17E4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ComputerScienceSwift.xcodeproj/ComputerScienceSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ComputerScienceSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ComputerScienceSwift;
+			};
+			name = Debug;
+		};
+		OBJ_18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ComputerScienceSwift.xcodeproj/ComputerScienceSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ComputerScienceSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ComputerScienceSwift;
+			};
+			name = Release;
+		};
+		OBJ_24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ComputerScienceSwift.xcodeproj/ComputerScienceSwiftTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ComputerScienceSwiftTests;
+			};
+			name = Debug;
+		};
+		OBJ_25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ComputerScienceSwift.xcodeproj/ComputerScienceSwiftTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ComputerScienceSwiftTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_16 /* Build configuration list for PBXNativeTarget "ComputerScienceSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_17 /* Debug */,
+				OBJ_18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "ComputerScienceSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_23 /* Build configuration list for PBXNativeTarget "ComputerScienceSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_24 /* Debug */,
+				OBJ_25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
