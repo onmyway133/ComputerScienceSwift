@@ -13,6 +13,7 @@
 		D21301621EED7C2000F17E4A /* DataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301611EED7C2000F17E4A /* DataStructureTests.swift */; };
 		D21301641EED7C2900F17E4A /* DesignPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301631EED7C2900F17E4A /* DesignPatternTests.swift */; };
 		D21301661EED7C3600F17E4A /* PuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301651EED7C3600F17E4A /* PuzzleTests.swift */; };
+		D21301681EED7D5000F17E4A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301671EED7D5000F17E4A /* Stack.swift */; };
 		OBJ_29 /* ComputerScienceSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ComputerScienceSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		D21301611EED7C2000F17E4A /* DataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructureTests.swift; sourceTree = "<group>"; };
 		D21301631EED7C2900F17E4A /* DesignPatternTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignPatternTests.swift; sourceTree = "<group>"; };
 		D21301651EED7C3600F17E4A /* PuzzleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleTests.swift; sourceTree = "<group>"; };
+		D21301671EED7D5000F17E4A /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		OBJ_13 /* ComputerScienceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ComputerScienceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_14 /* ComputerScienceSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ComputerScienceSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				D21301561EED7B9E00F17E4A /* DataStructure.swift */,
+				D21301671EED7D5000F17E4A /* Stack.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 0;
 			files = (
 				D21301571EED7B9E00F17E4A /* DataStructure.swift in Sources */,
+				D21301681EED7D5000F17E4A /* Stack.swift in Sources */,
 				D213015E1EED7BFD00F17E4A /* Algorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

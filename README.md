@@ -26,6 +26,10 @@ Practice computer science in Swift
 
 - TBD
 
+## Reference
+
+- [Java.util package](https://www.tutorialspoint.com/java/util/)
+- [swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club)
 
 ## Author
 
