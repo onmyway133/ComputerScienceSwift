@@ -16,7 +16,8 @@ Practice computer science in Swift
 
 ## Algorithm
 
-- sort
+- bubbleSort
+- insertionSort
 
 ## Design Pattern
 
