@@ -27,7 +27,14 @@ public extension DataStructure {
 
     // This method appends the specified element to the end of this list.
     public func add(item: T) {
-
+      let node = Node(value: item)
+      if head == nil {
+        head = node
+        tail = head
+      } else {
+        tail?.next = node
+        tail = node
+      }
     }
 
     // This method removes all of the elements from this list.
@@ -37,7 +44,14 @@ public extension DataStructure {
 
     // This method returns the number of elements in this list.
     public func size() -> Int {
-      return 0
+      var count = 0
+      var next = head
+      while next != nil {
+        count += 1
+        next = next?.next
+      }
+
+      return count
     }
 
     // This method tests if this linked list is empty.
