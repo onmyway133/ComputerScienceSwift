@@ -11,9 +11,9 @@ public extension Algorithm {
   public static func insertionSort<T: Comparable>(items: [T]) -> [T] {
     var items = items
 
-    for i in 0..<items.count-1 {
-      for j in i+1..<items.count-1 {
-        if items[j] > items[i] {
+    for i in 0..<items.count {
+      for j in i+1..<items.count {
+        if items[j] < items[i] {
           swap(&items[j], &items[i])
         }
       }
