@@ -17,6 +17,8 @@
 		D213016A1EED810B00F17E4A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301691EED810B00F17E4A /* LinkedList.swift */; };
 		D213016C1EED894500F17E4A /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D213016B1EED894500F17E4A /* BubbleSort.swift */; };
 		D213016E1EED8F5200F17E4A /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D213016D1EED8F5200F17E4A /* InsertionSort.swift */; };
+		D21301711EED930B00F17E4A /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301701EED930B00F17E4A /* Puzzle.swift */; };
+		D21301731EED931A00F17E4A /* NegateBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21301721EED931A00F17E4A /* NegateBool.swift */; };
 		OBJ_29 /* ComputerScienceSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ComputerScienceSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		D21301691EED810B00F17E4A /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		D213016B1EED894500F17E4A /* BubbleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		D213016D1EED8F5200F17E4A /* InsertionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		D21301701EED930B00F17E4A /* Puzzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		D21301721EED931A00F17E4A /* NegateBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegateBool.swift; sourceTree = "<group>"; };
 		OBJ_13 /* ComputerScienceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ComputerScienceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_14 /* ComputerScienceSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ComputerScienceSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -121,6 +125,15 @@
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
+		D213016F1EED930600F17E4A /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				D21301701EED930B00F17E4A /* Puzzle.swift */,
+				D21301721EED931A00F17E4A /* NegateBool.swift */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
 		OBJ_12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +157,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D213016F1EED930600F17E4A /* Puzzle */,
 				D213015C1EED7BF400F17E4A /* Algorithm */,
 				D21301551EED7B8B00F17E4A /* DataStructure */,
 			);
@@ -237,6 +251,8 @@
 			buildActionMask = 0;
 			files = (
 				D21301571EED7B9E00F17E4A /* DataStructure.swift in Sources */,
+				D21301711EED930B00F17E4A /* Puzzle.swift in Sources */,
+				D21301731EED931A00F17E4A /* NegateBool.swift in Sources */,
 				D21301681EED7D5000F17E4A /* Stack.swift in Sources */,
 				D213016C1EED894500F17E4A /* BubbleSort.swift in Sources */,
 				D213016E1EED8F5200F17E4A /* InsertionSort.swift in Sources */,
