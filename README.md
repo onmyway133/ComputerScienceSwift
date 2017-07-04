@@ -32,6 +32,7 @@ Practice computer science in Swift
 - [Java.util package](https://www.tutorialspoint.com/java/util/)
 - [swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club)
 - [algolist](http://www.algolist.net/)
+- [Algorithms on Tutorialhorizon](http://algorithms.tutorialhorizon.com/)
 
 ## Author
 
